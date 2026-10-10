@@ -1,0 +1,83 @@
+{
+  "schema_version": 3,
+  "profiles": {
+    "*": {
+      "jitter": {
+        "enabled": true,
+        "source": "mod"
+      },
+      "upscale": {
+        "enabled": true,
+        "internal_format": "rgba16f",
+        "supports_frame_generation_only": true,
+        "disabled_algorithms": ["fsr1","fsr2","sgsr1","sgsr2","anime4k"],
+        "trigger": {
+          "type": "BEFORE",
+          "pass": "composite67"
+        },
+        "motion_jittered": false,
+        "hdr": true,
+        "pre_exposure": {
+            "source": "const",
+            "type": "float",
+            "value": 1.0
+        },
+        "auto_exposure":true,
+        "inputs": {
+          "color": {
+            "enabled": true,
+            "src": "autotex6",
+            "region": [0, 0, -1, -1]
+          },
+          "depth": {
+            "enabled": true,
+            "src": "depthtex",
+            "region": [0, 0, -1, -1]
+          },
+          "motion_vectors": {
+            "enabled": true,
+            "src": "autotex10",
+            "region": [0, 0, -1, -1]
+          },
+          "exposure": {
+            "enabled": true,
+            "src": "autotex17",
+            "region": [0, 0, 1, 1]
+          },
+          "diffuse_albedo": {
+            "enabled": true,
+            "src": "autotex18",
+            "region": [0, 0, -1, -1]
+          },
+          "specular_albedo": {
+            "enabled": true,
+            "src": "autotex19",
+            "region": [0, 0, -1, -1]
+          },
+          "normal_roughness": {
+            "enabled": true,
+            "src": "autotex20",
+            "region": [0, 0, -1, -1]
+          },
+          "specular_hit_distance": {
+            "enabled": true,
+            "src": "autotex21",
+            "region": [0, 0, -1, -1]
+          },
+          "depth_of_field_guide": {
+            "enabled": true,
+            "src": "autotex22",
+            "region": [0, 0, -1, -1]
+          }
+        },
+        "outputs": {
+          "upscaled_color": {
+            "enabled": true,
+            "target": ["colortex7"],
+            "region": [0, 0, -2, -2]
+          }
+        }
+      }
+    }
+  }
+}
