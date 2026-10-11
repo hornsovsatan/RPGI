@@ -1,0 +1,810 @@
+
+
+option.iterationRP_VERSION=iterationRP by Tahnass
+value.iterationRP_VERSION.AT=Alpha 0.8.31
+value.iterationRP_VERSION.BT=261005
+option.iterationRP_INFO=§f§nHover on Button
+option.iterationRP_INFO.comment=Only Iris/Oculus 1.7+ is Supported. English Comments are Not Added
+value.iterationRP_INFO.AT=§f§nto Show Details
+value.iterationRP_INFO.BT=§f§nto Show Details
+option.INFO_0=§f§lPlease set §a§nMipmap levels§f§l to
+value.INFO_0.AT=§a§l4x
+value.INFO_0.BT=§a§l4x
+option.INFO_1=§f§lFor the §a§lbest§f§l performance
+value.INFO_1.0=§fTitle: §aOn
+value.INFO_1.1=§fTitle: §cOff
+option.INFO_TACZ=
+value.INFO_TACZ.AT=
+value.INFO_TACZ.BT=
+option.INFO_RES=§lDo §c§lnot§r§l enable §nSuperResolution§r§l at the same time!!!
+value.INFO_RES.AT=
+value.INFO_RES.BT=
+option.INFO_RES_0=§lDo §4§lnot§r§l enable §f§l§nSuper
+value.INFO_RES_0.AT=
+value.INFO_RES_0.BT=
+option.INFO_RES_1=§f§l§nResolution§r§l at the same time!!!
+value.INFO_RES_1.AT=
+value.INFO_RES_1.BT=
+
+
+
+screen.PT_VOXEL=§lTracing Voxel
+option.PT_VOXEL_RESOLUTION_X=§lVoxel §rWidth
+value.PT_VOXEL_RESOLUTION_X.128=4 Chunks
+value.PT_VOXEL_RESOLUTION_X.192=6 Chunks
+value.PT_VOXEL_RESOLUTION_X.256=8 Chunks
+value.PT_VOXEL_RESOLUTION_X.384=12 Chunks
+value.PT_VOXEL_RESOLUTION_X.512=16 Chunks
+option.PT_VOXEL_RESOLUTION_Y=§lVoxel §rHeight
+value.PT_VOXEL_RESOLUTION_Y.128=4 Chunks
+value.PT_VOXEL_RESOLUTION_Y.192=6 Chunks
+value.PT_VOXEL_RESOLUTION_Y.256=8 Chunks
+value.PT_VOXEL_RESOLUTION_Y.384=12 Chunks
+value.PT_VOXEL_RESOLUTION_Y.512=16 Chunks
+option.PT_MIDBLOCK_TEMPFIX=Fix High Coordinates Related Issue
+option.PT_FULLBLOCK_VERIFICATION=Fullblocks Verification
+option.PT_TAG_DETECTION=Block Tags Detection
+option.PT_FULLBLOCK_DETECTION=Fullblocks Detection
+option.PT_FULLBLOCK_DETECTION_ALPHA_TRACING=Fullblocks Texture Alpha
+option.VANILLA_EMISSIVE=Vanilla Lightsource Detection
+
+
+screen.PT_DIFFUSE=§c§lDiffuse §r§lTracing
+option.PT_DIFFUSE_TRACING_DISTANCE=Tracing Distance
+suffix.PT_DIFFUSE_TRACING_DISTANCE=m
+option.PT_DIFFUSE_SPP=Ray Sample Counts
+option.PT_DIFFUSE_SST=Screen Space Tracing (SST)
+option.PT_DIFFUSE_SST_THICKNESS=SST Assumed Thickness
+option.PT_DIFFUSE_SST_REPORJECT=SST Reproject
+option.PT_DIFFUSE_SST_PARALLAX=SST Parallax Tracing
+option.PT_TRACING_ALPHA=Trace Texture Alpha
+option.PT_DIFFUSE_REFRACTION=Transparency Refraction
+option.PT_DIFFUSE_REFRACTION_IOR=Refractive Index
+option.PT_DIFFUSE_FULLBLOCK_NO_SELF_INTERSECTION=Ignore Fullblocks Self-intersection
+
+screen.PT_DIFFUSE_DENOISE=Denoise Setting
+option.PT_DIFFUSE_SPATIAL_FILTER_STYLE=Diffuse Denoise Detail Level
+option.PT_DIFFUSE_SPATIAL_FILTER_LUMINANCE_WEIGHT=Denoiser Luminance Weight
+option.PT_DIFFUSE_SPATIAL_FILTER_DEPTH_WEIGHT=Denoiser Depth Weight
+option.PT_DIFFUSE_SPATIAL_FILTER_NORMAL_WEIGHT=Denoiser Normal Weight
+option.PT_DIFFUSE_TEMPORAL_MAX_ACCUM=Max Accumulated Frames
+option.PT_DIFFUSE_TEMPORAL_HISTORY_FIX=Occlusion Noise Reduction
+
+
+screen.PT_SPECULAR=§6§lSpecular §r§lTracing
+option.ENABLE_ROUGH_SPECULAR=Enable Rough Specular
+option.ROUGHNESS_CLAMP=Clamp High Roughness
+value.ROUGHNESS_CLAMP.0=Off
+value.ROUGHNESS_CLAMP.1=Low
+value.ROUGHNESS_CLAMP.2=High 
+option.PT_SPECULAR_TRACING_DISTANCE=Tracing Distance
+suffix.PT_SPECULAR_TRACING_DISTANCE=m
+option.PT_SPECULAR_SCREEN_REUSE=Screen Space Reuse
+option.PT_SPECULAR_IRC_SMOOTH=Smooth Irradiance Cache
+option.PT_SSR_MODE=Screen Space Reflection (SSR)
+value.PT_SSR_MODE.0=Off
+value.PT_SSR_MODE.1=OutRange
+value.PT_SSR_MODE.2=ShortRange + OutRange
+value.PT_SSR_MODE.3=All
+value.PT_SSR_MODE.4=SSR Only
+option.PT_SSR_QUALITY=SSR Quality
+option.PT_SSR_SMOOTH_EDGE=SSR Screen Edge Smooth
+option.PT_SPECULAR_DENOISE_STYLE=Specular Denoise Style
+value.PT_SPECULAR_DENOISE_STYLE.0=Details Priority
+value.PT_SPECULAR_DENOISE_STYLE.1=Denoise Priority
+option.SKYBOX_RESOLUTION=Skybox Resolution
+option.PT_OCCLUDED_WATER_SPECULAR=Occlude Water Additional Rendering
+
+
+screen.PT_IRC=§e§lIrradiance §r§lCache
+option.PT_IRC_RESOLUTION_X=Cache Width
+value.PT_IRC_RESOLUTION_X.128=4 Chunks
+value.PT_IRC_RESOLUTION_X.192=6 Chunks
+value.PT_IRC_RESOLUTION_X.256=8 Chunks
+value.PT_IRC_RESOLUTION_X.384=12 Chunks
+value.PT_IRC_RESOLUTION_X.512=16 Chunks
+option.PT_IRC_RESOLUTION_Y=Cache Height
+value.PT_IRC_RESOLUTION_Y.128=4 Chunks
+value.PT_IRC_RESOLUTION_Y.192=6 Chunks
+value.PT_IRC_RESOLUTION_Y.256=8 Chunks
+value.PT_IRC_RESOLUTION_Y.384=12 Chunks
+value.PT_IRC_RESOLUTION_Y.512=16 Chunks
+option.PT_IRC_SPP=Samples per Frame
+option.PT_IRC_MAX_ACCUM=Max Accumulated Frames
+option.PT_IRC_DIFFUSE_IRRADIANCE_STRENGTH=Diffuse Secondary Irradiance Strength
+option.PT_IRC_SELFBOUNCE_ATTENUATION=Self-Bounce Attenuation
+option.PT_IRC_INITIAL_SKYLIGHT=Initial Lighting
+
+
+
+
+
+screen.LIGHTING=§e§lLighting
+screen.LIGHT_SOURCE=§aLight Source Setting
+option.BLOCKLIGHT_BRIGHTNESS=BlockLight Brightness
+option.SPHERELIGHT_BRIGHTNESS=SphereLight Brightness
+option.BLOCKLIGHT_TEMPERATURE=BlockLight Color Temperature
+option.PARTICLELIGHT_BRIGHTNESS=Particle Brightness
+option.NIGHT_BRIGHTNESS=Night Brightness
+option.NOLIGHT_BRIGHTNESS=Base Brightness
+option.COLD_MOONLIGHT=Cold Moonlight
+option.SUNRISE_ROTATION=Sunrise Direction Rotation
+suffix.SUNRISE_ROTATION=°
+option.sunPathRotation=Sun Path Rotation
+option.SUNLIGHT_INTENSITY=Sunlight Intensity
+option.NETHER_BRIGHTNESS=Nether Ambient Brightness
+
+screen.LIGHT_COLOR=Light Color Setting
+option.BRIGHTNESS_ENDROD=Endrod-Brightness
+option.COLOR_ENDROD_R=§cRed
+option.COLOR_ENDROD_G=§aGreen
+option.COLOR_ENDROD_B=§9Blue
+option.BRIGHTNESS_TORCH=Torch,Lantern,Candle-Brightness
+option.COLOR_TORCH_R=§cRed
+option.COLOR_TORCH_G=§aGreen
+option.COLOR_TORCH_B=§9Blue
+option.BRIGHTNESS_COPPERLANTERN=Copper Torch,Lantern-Brightness
+option.COLOR_COPPERLANTERN_R=§cRed
+option.COLOR_COPPERLANTERN_G=§aGreen
+option.COLOR_COPPERLANTERN_B=§9Blue
+option.BRIGHTNESS_FIRE=Campfire-Brightness
+option.COLOR_FIRE_R=§cRed
+option.COLOR_FIRE_G=§aGreen
+option.COLOR_FIRE_B=§9Blue
+option.BRIGHTNESS_REDSTONETORCH=Redstone Torch-Brightness
+option.COLOR_REDSTONETORCH_R=§cRed
+option.COLOR_REDSTONETORCH_G=§aGreen
+option.COLOR_REDSTONETORCH_B=§9Blue
+option.BRIGHTNESS_AMETHYST=Amethyst-Brightness
+option.COLOR_AMETHYST_R=§cRed
+option.COLOR_AMETHYST_G=§aGreen
+option.COLOR_AMETHYST_B=§9Blue
+option.BRIGHTNESS_SOULCAMPFIRE=Soul Campfire-Brightness
+option.COLOR_SOULCAMPFIRE_R=§cRed
+option.COLOR_SOULCAMPFIRE_G=§aGreen
+option.COLOR_SOULCAMPFIRE_B=§9Blue
+option.BRIGHTNESS_SOULTORCH=Soul Torch,Lantern-Brightness
+option.COLOR_SOULTORCH_R=§cRed
+option.COLOR_SOULTORCH_G=§aGreen
+option.COLOR_SOULTORCH_B=§9Blue
+option.BRIGHTNESS_LIGHTBLOCK=Light Block-Brightness
+option.COLOR_LIGHTBLOCK_R=§cRed
+option.COLOR_LIGHTBLOCK_G=§aGreen
+option.COLOR_LIGHTBLOCK_B=§9Blue
+option.PT_LANTERN_VOXELIZATION=Lantern Shape Voxelization
+
+
+screen.HELDLIGHT=§eHeld Light Source Setting
+option.HELDLIGHT_BRIGHTNESS=Brightness
+option.HELDLIGHT_BRIGHTNESS_RATIO=Hand Brightness Ratio
+option.HELDLIGHT_MODE=§eHeld Light Mode
+value.HELDLIGHT_MODE.0=Torch
+value.HELDLIGHT_MODE.1=Flashlight
+option.SPECULAR_HELDLIGHT=Effect Specular
+option.HELDLIGHT_SHADOW=Enable Shadow
+option.HELDLIGHT_CUSTOM_COLOR=Custom Held Light Color
+option.HELDLIGHT_COLOR_BRIGHTNESS=Custom Color Brightness
+option.HELDLIGHT_COLOR_R=Custom Color §cRed
+option.HELDLIGHT_COLOR_G=Custom Color §aGreen
+option.HELDLIGHT_COLOR_B=Custom Color §9Blue
+
+screen.FLASHLIGHT=Flashlight Mode Setting
+option.FLASHLIGHT_FALLOFF=Flashlight Falloff
+option.FLASHLIGHT_FOV=Flashlight Beam Angle
+option.FLASHLIGHT_CAMERA_SMOOTH=Flashlight Facing Smooth
+option.FLASHLIGHT_CAMERA_SMOOTH_TIME=Transition Time
+option.FLASHLIGHT_POS_L_X=Horizontal Position Left
+option.FLASHLIGHT_POS_L_Y=Vertical Position Left
+option.FLASHLIGHT_POS_R_X=Horizontal Position Right
+option.FLASHLIGHT_POS_R_Y=Vertical Position Right
+
+
+screen.RIMS=§cRims Setting
+option.SUNLIGHT_RIMS=§cSunlight Rims
+option.RIMS_TERRAIN_STRENGTH=Terrian Strength
+option.RIMS_PLANTS_STRENGTH=Plants Strength
+option.RIMS_RELATIVE_WIDTH=Relative Width
+option.RIMS_MIN_WIDTH=Minimum Width
+suffix.RIMS_MIN_WIDTH=px
+option.RIMS_MAX_WIDTH=Maxium Width
+suffix.RIMS_MAX_WIDTH=px
+
+
+screen.SHADOW=§6Shadow Setting
+option.shadowMapResolution=ShadowMap Resolution
+option.SHADOW_RENDER_DISTANCE=Render Distance
+value.SHADOW_RENDER_DISTANCE.4=4 Chunks
+value.SHADOW_RENDER_DISTANCE.6=6 Chunks
+value.SHADOW_RENDER_DISTANCE.8=8 Chunks
+value.SHADOW_RENDER_DISTANCE.12=12 Chunks
+value.SHADOW_RENDER_DISTANCE.16=16 Chunks
+value.SHADOW_RENDER_DISTANCE.24=24 Chunks
+value.SHADOW_RENDER_DISTANCE.32=32 Chunks
+value.SHADOW_RENDER_DISTANCE.48=48 Chunks
+value.SHADOW_RENDER_DISTANCE.64=64 Chunks
+value.SHADOW_RENDER_DISTANCE.96=96 Chunks
+value.SHADOW_RENDER_DISTANCE.128=128 Chunks
+option.SHADOW_QUALITY=Shadow Quality
+option.SHADOW_DYNAMIC_QUALITY=Shadow Dynamic Quality
+option.SHADOW_BASIC_BLUR=Shadow Basic Blur
+option.VARIABLE_PENUMBRA_SHADOWS=Variable Penumbra Shadow
+option.VPS_SPREAD=Blur Radius
+option.VPS_LOOKUP_QUALITY=Lookup Quality
+option.VPS_LOOKUP_MAX_DIST=Max Lookup Distance
+suffix.VPS_LOOKUP_MAX_DIST=m
+option.COLORED_SHADOWS=Colored Shadow
+option.CAUSTICS=Water Caustics
+option.PT_SHADOW=ShortRange Tracing Shadow
+option.SCREEN_SPACE_SHADOWS=Screen Space Shadow
+option.HAND_SCREEN_SHADOW=Hand Screen Space Shadow
+option.SUNLIGHT_LEAK_FIX=Sunlight Leak Fixing
+
+screen.RTW=RTW Setting
+option.RTW_RESOLUTION=Warp Map Resolution
+option.RTW_BACKWARD_DIST_FACTOR=Distance Weight
+option.RTW_BACKWARD_NORMAL_FACTOR=Normal Weight
+option.RTW_BLUR_FACTOR=Weight Smooth Strength
+
+
+
+
+screen.SURFACE=§a§lTexture
+
+option.TEXTURE_RESOLUTION=Blocks Texture Resolution
+value.TEXTURE_RESOLUTION.0=Auto
+option.ENTITIES_TEXTURE_RESOLUTION=Entities Texture Resolution
+option.ANISOTROPIC_FILTERING_QUALITY=Anisotropic Filtering
+value.ANISOTROPIC_FILTERING_QUALITY.0=Off
+value.ANISOTROPIC_FILTERING_QUALITY.2=2x
+value.ANISOTROPIC_FILTERING_QUALITY.4=4x
+value.ANISOTROPIC_FILTERING_QUALITY.8=8x
+value.ANISOTROPIC_FILTERING_QUALITY.16=16x
+value.ANISOTROPIC_FILTERING_QUALITY.32=32x
+option.ANISOTROPIC_FILTERING_NORMAL_SPECULAR=Apply to Normal & Specular
+
+screen.PT_ATLAS=Tracing Texture Setting
+option.PT_ATLAS_TILE_ALIGNED=Force Tracing Texture Alignment
+value.PT_ATLAS_TILE_ALIGNED.0=Off
+value.PT_ATLAS_TILE_ALIGNED.1=Partial
+value.PT_ATLAS_TILE_ALIGNED.2=Full
+option.PT_LOWRES_ATLAS=Reduce Tracing Texture Resolution
+option.PT_LOWRES_ATLAS_MIN_RESOLUTION=Minimum Resolution
+value.PT_LOWRES_ATLAS_MIN_RESOLUTION.0=1
+value.PT_LOWRES_ATLAS_MIN_RESOLUTION.1=2
+value.PT_LOWRES_ATLAS_MIN_RESOLUTION.2=4
+value.PT_LOWRES_ATLAS_MIN_RESOLUTION.3=8
+value.PT_LOWRES_ATLAS_MIN_RESOLUTION.4=16
+value.PT_LOWRES_ATLAS_MIN_RESOLUTION.5=32
+value.PT_LOWRES_ATLAS_MIN_RESOLUTION.6=64
+option.PT_LOWRES_ATLAS_SMOOTH_SPECULAR=Maintain Resolution in Smooth Specular
+
+
+screen.POM=§6Parallax Setting
+option.PARALLAX_MODE=§6Mode
+value.PARALLAX_MODE.0=Off
+value.PARALLAX_MODE.1=Sharp
+value.PARALLAX_MODE.2=Smooth-fast
+value.PARALLAX_MODE.3=Smooth-fine
+option.ENTITIES_PARALLAX=Entities Parallax
+option.PARALLAX_DEPTH=Parallax Depth
+option.PARALLAX_QUALITY=Quality
+option.PARALLAX_SHADOW=Parallax Self Shadow
+option.PARALLAX_SHADOW_QUALITY=Self Shadow Quality
+option.PARALLAX_BASED_NORMAL=Parallax Based Normal
+value.PARALLAX_BASED_NORMAL.0=Off
+value.PARALLAX_BASED_NORMAL.1=Side Only
+value.PARALLAX_BASED_NORMAL.2=All
+option.PARALLAX_FADE=Parallax Fade
+
+
+screen.PBR=§ePBR Texture Setting
+option.TEXTURE_PBR_FORMAT=PBR Format
+value.TEXTURE_PBR_FORMAT.1=labPBR
+value.TEXTURE_PBR_FORMAT.2=PTGI
+option.LABPBR_EMISSIVENESS=PBR Emissive Texture
+option.HARDCODED_EMISSIVENESS_MODE=Hardcoded Emissive
+value.HARDCODED_EMISSIVENESS_MODE.0=Off
+value.HARDCODED_EMISSIVENESS_MODE.1=Blocks
+value.HARDCODED_EMISSIVENESS_MODE.2=Blocks+Entities
+option.LABPBR_REFRACTION_ROUGHNESS=PBR Rough Refraction
+option.LABPBR_SSS=labPBR Subsurface Scatter Setting
+option.LABPBR_POROSITY=labPBR Porosity
+option.LABPBR_PREDEFINED_METAL=labPBR Predefined Metals
+
+screen.REFLECTION=Reflection Setting
+option.SKY_IMAGE_RESOLUTION=Skybox Resolution
+option.TERRAIN_NORMAL_CLAMP=Terrian Normal Clamp
+option.HAND_NORMAL_CLAMP=Hand Normal Clamp
+option.ENTITIES_NORMAL_CLAMP=Entity Normal Clamp
+
+screen.REFRACTION_ROUGHNESS=Rough Refraction Setting
+option.REFRACTION_ROUGHNESS_TEMPORAL=Dynamic Dither
+option.REFRACTION_ROUGHNESS_STRENGTH=Strength
+
+screen.SSS=Subsurface Scatter Setting
+option.SSS_QUALITY=Quality
+option.SSS_STRENGTH=Strength Multiplier
+option.SSS_STRENGTH_OFFSET=Strength Offset
+option.SSS_BRIGHTNESS=Brightness
+option.SSS_NORMAL=Effect Normal
+
+screen.POROSITY=Porosity Setting
+option.TEXTURE_DEFAULT_POROSITY=Default Porosity
+option.POROSITY_ABSORPTION=Wetness Albedo Absorbtion
+option.SURFACE_WETNESS=Surface Wetness Override
+
+screen.METAL=Metals Setting
+option.METAL_MINIMAL_F0=Minimal f0
+option.METAL_ORIGIN_COLOR=Diffuse Strength
+option.METALMASK_STRENGTH=Reflection Mask Strength
+
+
+screen.PLANTS=§aPlants Setting
+option.WAVING_PLANTS=Waving Plants
+option.SHADOW_WAVING_PLANTS=Waving Plants in ShadowMap
+option.WAVING_RANGE=Waving Render Distance
+value.WAVING_RANGE.32=2 Chunks
+value.WAVING_RANGE.48=3 Chunks
+value.WAVING_RANGE.64=4 Chunks
+value.WAVING_RANGE.96=6 Chunks
+value.WAVING_RANGE.128=8 Chunks
+value.WAVING_RANGE.192=12 Chunks
+value.WAVING_RANGE.256=16 Chunks
+value.WAVING_RANGE.999=Unlimited
+option.WAVING_SPEED=Waving Speed
+option.GRASS_AMPLITUDE=Grass Waving Amplitude
+option.GRASS_DISTURBANCE=Grass Waving Disturbance
+option.LEAVES_AMPLITUDE=Leaves Waving Amplitude
+option.GENERAL_GRASS_FIX=General Grass Detection
+
+
+screen.WATER=§9Water Setting
+option.WATER_FOG=Water Fog
+option.UNDERWATER_VFOG=Underwater Volumetric Fog
+option.UNDERWATER_VFOG_QUALITY=Quality
+option.UNDERWATER_VFOG_DENSITY=Density
+option.WAVE_SCALE=Wave Scale
+option.WAVE_SPEED=Wave Speed
+option.WAVE_NORMAL_STRENGTH=Wave Normal Strength
+option.WAVE_PARALLAX=Wave Parallax
+option.WAVE_PARALLAX_DEPTH=Parallax Depth
+option.WAVE_PARALLAX_QUALITY=Quality
+option.WAVE_PARALLAX_MAX_REFINEMENTS=Sampling Refinements
+
+screen.WATER_SCATTERING=Scattering Parameters
+option.WATER_SCATTERING_DENSITY=Water Scattering Density
+option.WATER_SCATTERING_R=Water Scattering §cRed
+option.WATER_SCATTERING_G=Water Scattering §aGreen
+option.WATER_SCATTERING_B=Water Scattering §9Blue
+option.WATER_ATTENUATION_R=Water Attenuation §cRed
+option.WATER_ATTENUATION_G=Water Attenuation §aGreen
+option.WATER_ATTENUATION_B=Water Attenuation §9Blue
+
+
+screen.RAIN=§bRain Setting
+option.RAIN_SHADOW=Rainy Shade
+option.RAIN_SPLASH_EFFECT=Rain Splash
+option.RAIN_SPLASH_STRENGTH=Strength
+option.RAIN_SPLASH_SPEED=Animation Speed
+option.RAIN_SPLASH_SCALE=Scale
+option.drynessHalflife=Dry>>Wet Halflife
+option.wetnessHalflife=Wet>>Dry Halflife
+option.RAIN_VISIBILITY=Raindrop Visibility
+option.RAIN_WIND_X=Raindrop Wind Direction on X-axis
+option.RAIN_WIND_Z=Raindrop Wind Direction on Z-axis
+option.RAIN_DISTURBANCE=Raindrop Random Disturbance Intensity
+option.DISABLE_LOCAL_PRECIPITATION=Disable Precipitation Detection
+
+
+screen.SKY_TEXTURE=§dSky Texture Setting
+option.SUN_ANGULAR_RADIUS=Sun Angular Radius
+suffix.SUN_ANGULAR_RADIUS=°
+option.STAR_TYPE=Star Type
+value.STAR_TYPE.0=Off
+value.STAR_TYPE.1=Dots
+value.STAR_TYPE.2=Vanilla
+option.HASHSTARS_BRIGHTNESS=Dots Type Brightness
+option.SKY_TEXTURE_BRIGHTNESS=Texture Brightness
+option.MOON_TEXTURE=Moon Texture
+option.BILINEAR_MOON_TEXTURE=Moon Texture Smoothing
+option.SKYBOX_TEXTURE=Skybox Texture
+option.BILINEAR_SKYBOX_TEXTURE=Skybox Texture Smoothing
+
+option.END_PLANET_CYCLE=End Revolution Period
+suffix.END_PLANET_CYCLE=min
+option.END_MANUAL_PLANET_CYCLE=End Revolution Manual Phase
+value.END_MANUAL_PLANET_CYCLE.-1=Off
+option.ACCRETIONDISC_ANGLE=Accretion Disc Angle
+suffix.ACCRETIONDISC_ANGLE=°
+option.ACCRETIONDISC_DETAIL_ALONG_LONGTITUDE=Dusty Accretion Disc
+option.ACCRETIONDISC_DOPPLER_EFFECT=Accretion Disc Doppler Effect
+option.END_PLANET_WEAK_DIFFUSE=Decrease Planet Diffuse Tracing Strength
+option.BLACKHOLE_LQ=LQ Blackhole Reflection
+
+
+screen.SURFMISC=Misc
+option.TERRAIN_VS_TBN=Blocks Vertex Normal Smoothing
+option.ENTITIES_VS_TBN=Entities Vertex Normal Smoothing
+option.TERRAIN_NORMAL_MAP=Blocks Normal Map
+option.TERRAIN_SPECULAR_MAP=Blocks Specular Map
+option.ENTITIES_NORMAL_MAP=Entities Normal Map
+option.ENTITIES_SPECULAR_MAP=Entities Specular Map
+option.ENTITIES_STATUS_COLOR=Entity Status Color
+option.EYES_LIGHTING=Entity eyes Lighting
+option.LINE_IMAGE_OUTPUT=Disable Selection Box Depth Writing
+option.SELECTION_BOX_COLOR_R=Selection Box Color §cRed
+option.SELECTION_BOX_COLOR_G=Selection Box Color §aGreen
+option.SELECTION_BOX_COLOR_B=Selection Box Color §9Blue
+option.HAND_FOV_MODE=Hand Fov Mode
+value.HAND_FOV_MODE.0=Default
+value.HAND_FOV_MODE.1=Follow Game Setting
+value.HAND_FOV_MODE.2=Follow Shader Setting
+option.HAND_FOV=Hand Fov
+
+
+
+
+
+screen.VOL=§b§lVolumetric Effects
+
+option.VFOG_REFLECTION=Rendered in Reflection
+option.VFOG_REFRACTION=Rendered in Refraction
+option.LANDSCATTERING_REFLECTION=Rendered in Reflection
+option.LANDSCATTERING_REFRACTION=Rendered in Refraction
+option.FOG_SKYLIGHT_FALLOFF=Fog Skylight Falloff
+value.FOG_SKYLIGHT_FALLOFF.0=Off
+value.FOG_SKYLIGHT_FALLOFF.1=Smooth
+value.FOG_SKYLIGHT_FALLOFF.2=Medium
+value.FOG_SKYLIGHT_FALLOFF.3=Fast
+
+option.PLANAR_CLOUDS=§bPlane Clouds
+screen.PC=Setting
+option.PC_ALTITUDE=Altitude
+option.PC_NOISE_SCALE=Noise Scale
+
+screen.PC_CLEAR_SETTING=Clear Setting
+option.PC_CLEAR_COVERAGE=Coverage
+option.PC_CLEAR_DENSITY=Density
+option.PC_CLEAR_SUNLIGHTING=Sunlight Strength
+option.PC_CLEAR_SKYLIGHTING=Skylight Strength
+
+screen.PC_RAIN_SETTING=Rain Setting
+option.PC_RAIN_COVERAGE=Coverage
+option.PC_RAIN_DENSITY=Density
+option.PC_RAIN_SUNLIGHTING=Sunlight Strength
+option.PC_RAIN_SKYLIGHTING=Skylight Strength
+
+
+option.VOLUMETRIC_CLOUDS=§bVolumetric Clouds
+option.VOLUMETRIC_CLOUDS.comment=§9████████§f████§9██████. §9█████§f█████████§9████. §9███§f██████§7█§f████§7█§9███. §9███§f██████§7█§f████§7██§9██. §9████§f█§7████§f███§7███§9███. §9███████§f██§7███§9██████.
+screen.VC=Setting
+option.CLOUD_QUALITY=Sample Quality
+option.CLOUD_FADE=Distance fade
+option.CLOUD_SPEED=Cloud Speed
+option.CLOUD_SHADOW=Cloud Shadow
+
+option.CLOUD_DETAILED_NOISE_STRENGTH=Detailed Noise Strength
+option.CLOUD_BASE_NOISE_SCALE=Base Noise Scale
+option.CLOUD_DETAILED_NOISE_SCALE=Detailed Noise Scale
+option.CLOUD_COVERAGE_NOISE_OFFSET=Coverage Noise Offset
+option.CLOUD_BOTTOM_BRIGHTNESS=Bottom Brightness
+option.CLOUD_OUTSCATTER_FACTOR=Out Scatter Factor
+
+screen.VC_CLEAR_SETTING=Clear Setting
+option.CLOUD_CLEAR_ALTITUDE=Altitude
+option.CLOUD_CLEAR_THICKNESS=Thickness
+option.CLOUD_CLEAR_COVERY=Coverage
+option.CLOUD_CLEAR_DENSITY=Density
+option.CLOUD_CLEAR_SUNLIGHTING=Sunlight Strength
+option.CLOUD_CLEAR_SKYLIGHTING=Skylight Strength
+option.CLOUD_CLEAR_SCALE=Scale
+
+screen.VC_RAIN_SETTING=Rain Setting
+option.CLOUD_RAIN_ALTITUDE=Altitude
+option.CLOUD_RAIN_THICKNESS=Thickness
+option.CLOUD_RAIN_COVERY=Coverage
+option.CLOUD_RAIN_DENSITY=Density
+option.CLOUD_RAIN_SUNLIGHTING=Sunlight Strength
+option.CLOUD_RAIN_SKYLIGHTING=Skylight Strength
+option.CLOUD_RAIN_SCALE=Scale
+
+screen.CLOUD_SHADOW_SETTING=Cloud Shadow Setting
+option.CLOUD_SHADOW_FADE=Cloud Shadow Fade
+option.CLOUD_SHADOW_RANGE=Cloud Shadow Range
+value.CLOUD_SHADOW_RANGE.2048.0=64 Chunks
+value.CLOUD_SHADOW_RANGE.3072.0=96 Chunks
+value.CLOUD_SHADOW_RANGE.4096.0=128 Chunks
+value.CLOUD_SHADOW_RANGE.6144.0=192 Chunks
+value.CLOUD_SHADOW_RANGE.8192.0=256 Chunks
+value.CLOUD_SHADOW_RANGE.12288.0=384 Chunks
+value.CLOUD_SHADOW_RANGE.16384.0=512 Chunks
+option.CLOUD_SHADOWTEX_SIZE=Cloud Shadow Texture Resolution
+
+
+option.VFOG=§eVolumetric Fog
+screen.VFOG=Setting
+option.VFOG_QUALITY=Quality
+option.VFOG_DENSITY=Density
+option.VFOG_DENSITY_BASE=Base Density
+option.VFOG_SUNLIGHT_DENSITY=Sunlight Strength
+option.VFOG_FOG_DENSITY=Skylight Strength
+option.VFOG_HEIGHT=MidPoint Height
+option.VFOG_HEIGHT_2=MidPoint Height
+option.VFOG_FALLOFF=Falloff Distance
+option.VFOG_IGNORE_WORLDTIME=Ignore Worldtime
+option.VFOG_RAIN_DENSITY_MUL=Rain Density Multiplier
+option.VFOG_STAINED=Transparency Stained
+option.VFOG_CLOUD_SHADOW=Cloud Shade
+option.VFOG_VOLUMETRIC_LIGHTING=Volumetric Lighting
+option.VFOG_SUNLIGHT_ABSORPTION=Volumetric Lighting Absorbtion
+
+screen.VFOG_NOISE_SETTING=Noise Setting
+option.VFOG_NOISE_TYPE=Noise Type
+value.VFOG_NOISE_TYPE.0=Height fade
+value.VFOG_NOISE_TYPE.1=Agglomerate
+option.VFOG_NOISE_OCTAVE=Octaves
+option.VFOG_NOISE_HORIZONTAL_SCALE=Horizontal Scale
+option.VFOG_NOISE_VERTICAL_SCALE=Vertical Scale
+option.VFOG_NOISE_COVERAGE=Coverage
+
+
+option.LANDSCATTERING=§aLand Scattering
+screen.LANDSCATTERING=Setting
+option.LANDSCATTERING_STRENGTH=Strength
+option.LANDSCATTERING_SHADOW=Shadow Enabled
+option.LANDSCATTERING_SHADOW_QUALITY=Shadow Quality
+
+
+screen.VOL_MISC=Misc
+option.CAVE_FOG=Cave Fog
+option.CAVE_FOG_BRIGHTNESS=Cave Fog Brightness
+option.NETHERFOG_DENSITY=Nether Fog Density
+option.ATMO_HORIZON=Sky Horizon
+option.ATMO_REFLECTION_HORIZON=Skybox Horizon
+
+
+
+
+
+screen.POSTPROCESSING=§d§lPost Processing
+
+
+screen.TAA_SETTING=Temproal Anti-Aliasing
+option.TAA=TAA
+option.TAA_BLENDWEIGHT=Blendweight
+option.TAA_AGGRESSION=Clip Aggression
+option.TAA_SUBPIXEL_SHARPNING=Subpixel Sharping
+
+
+option.FSR2_SCALE=§4§lFSR §r§l2.3 §rSuperResolution
+value.FSR2_SCALE.-1=Off
+value.FSR2_SCALE.1=Quality 1.5x
+value.FSR2_SCALE.2=Balanced 1.7x
+value.FSR2_SCALE.3=Performance 2.0x
+value.FSR2_SCALE.4=Ultra performance 3.0x
+option.FSR2_RCAS_SHARPNESS=§4§lFSR §rSharpness
+
+
+screen.FIDELITY_FX_SETTING=§4AMD FidelityFX
+option.FSR=§4FSR 1.0
+option.FSR_SHARPNESS=FSR Sharpness
+option.FSR_DENOISE=FSR Reduce Noise Sharpening
+option.CAS_SHARPNESS=CAS Sharpness
+value.CAS_SHARPNESS.0=Off
+option.CAS_DENOISE=CAS Reduce Noise Sharpening
+
+
+screen.DOF_SETTING=§dDepth of Field
+option.DOF=§dDepth of Field
+option.DOF_BLUR=Blur Amount
+option.DOF_BLUR_REFERENCE=Zoom =Type
+value.DOF_BLUR_REFERENCE.0=Cropping
+value.DOF_BLUR_REFERENCE.1=Constant Aperture
+option.DOF_QUALITY=Quality
+option.DOF_COCSPREAD_QUALITY=Foreground COC Spread Quality
+option.DOF_MAX_COC=Maxium Blur Radius
+option.DOF_CATSEYE=Cat's Eye Effect
+option.DOF_CATSEYE_STRENGTH=Strength
+option.DOF_CATSEYE_MIDPOINT=Midpoint
+option.CAMERA_FOCUS_MODE=Focal Mode
+value.CAMERA_FOCUS_MODE.0=Auto
+value.CAMERA_FOCUS_MODE.1=Manual
+option.CAMERA_FOCAL_POINT=Manual Focal Point
+suffix.CAMERA_FOCAL_POINT= m
+option.CAMERA_APERTURE=Aperture
+option.DOF_DEPTH_SMMOOTH_HALFLIFE=Focus Smooth Halflife
+option.DISABLE_HAND_DOF=Disabled Hand DOF
+option.DOF_FOCUS_IGNORE_HAND_PARTICLE=Focus Ignore Hand or Particle
+
+
+screen.EXPOSURE_SETTING=§bExposure
+option.AE_MODE=§bAE Mode
+value.AE_MODE.0=Default
+value.AE_MODE.1=Center Weighted
+value.AE_MODE.2=Center Only
+value.AE_MODE.3=Screen Average
+option.AE_CURVE=AE Curve
+option.AE_OFFSET=AE Offset
+suffix.AE_OFFSET= EV
+option.LUMINANCE_WEIGHT_MODE=Luminance Weighted Mode
+value.LUMINANCE_WEIGHT_MODE.0=Off
+value.LUMINANCE_WEIGHT_MODE.1=Preset 1
+value.LUMINANCE_WEIGHT_MODE.2=Preset 2
+value.LUMINANCE_WEIGHT_MODE.3=Shadow Priority
+value.LUMINANCE_WEIGHT_MODE.4=Highlight Priority
+option.LUMINANCE_WEIGHT_STRENGTH=Weighted Strength
+option.SMOOTH_EXPOSURE=Smooth AE
+option.EXPOSURE_TIME=AE Transition Time
+option.MANUAL_EXPOSURE=§bManual Exposure
+option.EV_VALUE=Exact EV value
+suffix.EV_VALUE= EV
+
+
+screen.MOTION_BLUR_SETTING=§aMotion Blur
+option.MOTION_BLUR=§aMotion Blur
+option.MOTION_BLUR_DITHER=Dither Enabled
+option.MOTION_BLUR_QUALITY=Quality
+option.MOTION_BLUR_SUTTER_MODE=Sutter Mode
+value.MOTION_BLUR_SUTTER_MODE.0=Sutter Angle
+value.MOTION_BLUR_SUTTER_MODE.1=Sutter Speed
+option.MOTION_BLUR_SUTTER_ANGLE=Sutter Angle
+suffix.MOTION_BLUR_SUTTER_ANGLE=°
+option.MOTION_BLUR_SUTTER_SPEED=Sutter Speed
+prefix.MOTION_BLUR_SUTTER_SPEED=1/
+
+screen.VIGNETTE_SETTING=§eVignette
+option.VIGNETTE=§eVignette
+option.VIGNETTE_FALLOFF=Falloff
+option.VIGNETTE_ROUNDNESS=Roundness
+option.SNEAKING_VIGNETTE=Sneaking Vignette Enabled
+
+
+screen.BLOOM_SETTING=§6Bloom
+option.BLOOM=§6Bloom
+option.BLOOM_AMOUNT=Bloom Strength
+option.HIGHLIGHT_DIFFUSION_FILTER=Highlight Diffusion Effect
+value.HIGHLIGHT_DIFFUSION_FILTER.0=Off
+value.HIGHLIGHT_DIFFUSION_FILTER.1=Medium
+value.HIGHLIGHT_DIFFUSION_FILTER.2=High
+option.BLOOM_CLAMP_STRENGTH=Over Exposure Clamping
+value.BLOOM_CLAMP_STRENGTH.0=Off
+value.BLOOM_CLAMP_STRENGTH.1=Low
+value.BLOOM_CLAMP_STRENGTH.2=High
+option.NETHER_END_BLOOM_BOOST=Nether End Bloom Boost
+option.VFOG_BLOOM=Volumetric Fog Scattering Bloom
+option.LENS_GLARE=§6Lens Glare
+option.LENS_FLARE=§6Lens Flare
+option.GLARE_BRIGHTNESS=Glare & Sun Stars Brightness
+option.FLARE_BRIGHTNESS=Flare Brightness
+option.FLARE_GHOSTING=Ghosting
+option.GLARE_FLARE_SHADOWBASED=Based on Shadow
+
+
+screen.COLOR=§cColor Adjustment
+option.TONEMAP_OPERATOR=§cTonemap
+value.TONEMAP_OPERATOR.GT=GT(Uchimura)
+value.TONEMAP_OPERATOR.None=None
+option.AGX_EV=AgX Dynamic Range
+suffix.AGX_EV=EV
+option.AGX_HDR_EV=AgX HDR Dynamic Range
+suffix.AGX_HDR_EV=EV
+option.AGX_HDR_MIDGREY=AgX HDR Midgrey
+option.ABNEY_EFFECT_CORRECTION=Abney Effect Correction
+option.ADVANCED_COLOR=Advanced Color Adjustment
+
+screen.ADVANCED_COLOR=Setting
+option.HIGHLIGHT_CURVE=Highlight Curve
+option.SHADOW_CURVE=Shadow Curve
+option.WHITE_POINT=White Point
+option.BLACK_POINT=Black Point
+option.KEEP_LUMINANCE=Keep Brightness
+option.MIDTONE_HUE=Midtone -Hue
+option.MIDTONE_STRENGTH=Midtone -Strength
+option.HIGHLIGHT_HUE=Highlight -Hue
+option.HIGHLIGHT_STRENGTH=Highlight -Strength
+option.SHADOW_HUE=Shadow -Hue
+option.SHADOW_STRENGTH=Shadow -Strength
+option.SATURATION=Saturation
+option.GAMMA=Gamma Curve
+
+screen.WAVEFORM=Waveform Scope
+option.WAVEFORM_SCOPE=Scope Enabled
+option.WAVEFORM_TYPE=Waveform Type
+value.WAVEFORM_TYPE.0=RGB Separated
+value.WAVEFORM_TYPE.1=RGB
+value.WAVEFORM_TYPE.2=Brightness
+option.WAVEFORM_INTENSITY=Intensity
+option.WAVEFORM_THRESHOLD=Threshold
+option.WAVEFORM_SIZE=Size
+value.WAVEFORM_SIZE.0=Small
+value.WAVEFORM_SIZE.1=Large
+option.WAVEFORM_OPACITY=Opacity
+suffix.WAVEFORM_OPACITY=%
+option.WAVEFORM_OFFEST_X=X Offset
+suffix.WAVEFORM_OFFEST_X=px
+option.WAVEFORM_OFFEST_Y=Y Offset
+suffix.WAVEFORM_OFFEST_Y=px
+
+
+screen.RESOLUTION=Render Resolution
+option.CUSTOM_RENDER_RESOLUTION=Custom Render Resolution
+option.CUSTOM_RENDER_RESOLUTION_X=Horizontal Resolution
+option.CUSTOM_RENDER_RESOLUTION_Y=Vertical Resolution
+option.CUSTOM_SCALE_MODE=Scaling Mode
+value.CUSTOM_SCALE_MODE.0=§fInteger Scaling
+value.CUSTOM_SCALE_MODE.1=§4§lFSR §f§l1
+option.INTEGER_SCALING=Integer Scaling Ratio
+suffix.INTEGER_SCALING=x
+option.ASPECTRATIO_MUL=Aspect Ratio
+suffix.ASPECTRATIO_MUL=x
+option.BACKGROUND_COLOR_R=Background Color §cRed
+option.BACKGROUND_COLOR_G=Background Color §aGreen
+option.BACKGROUND_COLOR_B=Background Color §9Blue
+
+
+
+
+
+screen.MOD_SUPPORT=§lSupported Mod Option
+
+
+screen.DH_SETTING=§6Distant Horizons§r Setting
+option.DH_SHADOW=Rendered in ShadowMap
+option.DH_SHADOW_FIX=Shadow Fix
+option.DH_TERRAIN_CULLING=Terrian Culling
+option.DH_SHADOW_CULLING=Shadow Culling
+option.DH_TEXTURE_NOISE=Apply Texture Noise
+option.DH_TEXTURE_NOISE_STEPS=Scale
+option.DH_TEXTURE_NOISE_STRENGTH=Strength
+option.DH_LIMIT_VFOG_DIST=Limted Volumetric Fog Distance
+
+
+screen.TACZ_SETTING=§bTACZ§r Setting
+option.DECREASE_HAND_GHOSTING=Decrease Hand Ghosting
+option.DECREASE_HAND_SPECULAR=Decrease Hand Specular
+option.DISABLE_HAND_SPECULAR=Disable Hand Specular
+option.TACZ_ADAPTIVE_EMISSIVE=Adaptive Emissive
+option.TACZ_ADAPTIVE_EMISSIVE_BRIGHTNESS=Adaptive Emissive Brightness
+option.TACZ_MUZZLE_FLASH=Muzzle Flash Detection
+option.TACZ_MUZZLE_FLASH_BRIGHTNESS=Muzzle Flash Brightness
+
+
+screen.YSM_SETTING=§bYes Steve Model§r Setting
+option.DISABLE_PLAYER_TAA_MOTION_BLUR=Disable Player TAA & Motion Blur
+option.DISABLE_PLAYER_GI=Disable Player GI
+option.DISABLE_PLAYER_GI_VELOCITY=Disable Player Velocity in GI
+option.DISABLE_PLAYER_SPECULAR=Disable Player Specular
+option.DISABLE_PLAYER_SCREEN_SPACE_SHADOWS=Disable Player Screen Space Shadow
+
+
+
+
+
+screen.SHORTCUT=Shortcut
+
+option.CAVE_MODE=Cave Mode
+
+
+
+
+
+screen.SCREENSHOT=Rendering Mode
+
+option.RENDERING_MODE=Rendering Mode Enabled
+option.RENDERING_MODE_ACCUM_TYPE=Accumulation Type
+value.RENDERING_MODE_ACCUM_TYPE.0=Average
+value.RENDERING_MODE_ACCUM_TYPE.1=Maxium
+option.RENDERING_MODE_COOLDOWN=Cooldown Time After Reload
+suffix.RENDERING_MODE_COOLDOWN=s
+option.RENDERING_MODE_SPP=Rendering Mode Ray Sample Counts
+value.RENDERING_MODE_SPP.1=Default
+option.RENDERING_MODE_MOTION_VALIDATION=Camera Motion Vaildation
+option.DISABLE_SKY_RENDERING=Disable Sky Rendering
+
+screen.ANIMATION=Animation Setting
+
+
+
+
+
+screen.DEBUG=§7Debug
