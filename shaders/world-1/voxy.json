@@ -1,0 +1,60 @@
+
+
+{
+	"includeSettings": "
+		#include "/Lib/Settings.glsl"
+	",
+	"version": 1,
+	"uniforms": [
+		"gbufferModelViewInverse",
+		"frameCounter",
+		"frameTimeCounter",
+		"cameraPosition",
+		"wetness",
+		"isEyeInWater",
+		"gbufferProjection0",
+		"gbufferProjection1",
+		"gbufferProjectionInverse0",
+		"gbufferProjectionInverse1",
+		"gbufferPreviousProjection0",
+		"gbufferPreviousProjection1",
+		"lodProjection0",
+		"lodProjectionInverse0",
+		"lodProjectionInverse1",
+		"lodPreviousProjection0",
+		"pixelSize",
+#ifdef SUPER_RESOLUTION
+		"fsrPixelSize",
+#endif
+		"taaJitterVX",
+		"eyeSnowySmooth",
+		"eyeNoPrecipitationSmooth"
+	],
+	"samplers": {
+		"noisetex": "sampler2D",
+		"vxDepthTexOpaque": "sampler2D"
+	},
+	"blending": {
+		"-1": "off"
+	},
+	"excludeLodsFromVanillaDepth": true,
+	"taaOffset": "{return taaJitterVX;}",
+	"opaqueDrawBuffers": [0, 1, 2],
+	"translucentDrawBuffers": [3, 4, 5]
+#if SR_SHOULD_APPLY_SCALE == 1
+	,"renderScale": [SR_RENDER_SCALE_FACTOR],
+	"useViewportDims": true
+#elif FSR2_SCALE == 1
+	,"renderScale": [0.6667],
+	"useViewportDims": true
+#elif FSR2_SCALE == 2
+	,"renderScale": [0.5882],
+	"useViewportDims": true
+#elif FSR2_SCALE == 3
+	,"renderScale": [0.5],
+	"useViewportDims": true
+#elif FSR2_SCALE == 4
+	,"renderScale": [0.3333],
+	"useViewportDims": true
+#endif
+}
